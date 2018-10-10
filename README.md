@@ -1,7 +1,7 @@
 # PSC Bridges Use:
 
 This will load all necessary programs/files to run caffe.
-    module load caffe/git_master_HEAD
+         module load caffe/git_master_HEAD openblas/1.20
 
 
 
