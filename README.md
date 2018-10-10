@@ -1,3 +1,10 @@
+# PSC Bridges Use:
+
+This will load all necessary programs/files to run caffe.
+    module load caffe/git_master_HEAD
+
+
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
