@@ -178,7 +178,7 @@ ifneq ($(CPU_ONLY), 1)
 	LIBRARIES := cudart cublas curand
 endif
 
-LIBRARIES += glog gflags protobuf boost_system boost_filesystem m
+LIBRARIES += glog gflags protobuf boost_system boost_filesystem m opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs
 
 # handle IO dependencies
 USE_LEVELDB ?= 1
