@@ -2,7 +2,15 @@
 
 This will load all necessary programs/files to run caffe.
           
-          module load caffe/git_master_HEAD openblas/1.20
+          modules to load:
+          
+            1) psc_path/1.1                  7) python2/2.7.14_gcc5_np1.13   13) glog/0.3.5
+            2) slurm/default                 8) leveldb/1.20                 14) opencv/3.2.0
+            3) intel/17.4                    9) boost/1.66.0_py2.7.14_gcc5   15) caffe/git_master_HEAD
+            4) xdusage/2.0-4                10) scikit/py2.7.14_gcc5_np1.13  16) openblas/0.2.19
+            5) hdf5/1.8.16_gnu              11) protobuf/3.2.0               17) gcc/5.3.0
+            6) cuda/8.0                     12) gflags/2.2.0
+
 
 
 
