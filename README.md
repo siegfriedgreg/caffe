@@ -18,6 +18,7 @@ This will load all necessary programs/files to run caffe.
             6) cuda/8.0                     12) gflags/2.2.0
 
             You should now be good to run make. My version of the Makefile.config should work with all users on PSC Bridges.
+            I am only having success running in CPU only mode, and will update if resolved in the future.
 
 
 
