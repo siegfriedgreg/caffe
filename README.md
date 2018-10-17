@@ -4,6 +4,12 @@ This will load all necessary programs/files to run caffe.
           
           modules to load:
           
+            step 1: module load caffe/git_master_HEAD openblas gcc
+            step 2: module swap hdf5/1.10 hdf5/1.8.16_gnu
+            step 3: module list
+            
+            will look like this: (1-4 could be different)
+          
             1) psc_path/1.1                  7) python2/2.7.14_gcc5_np1.13   13) glog/0.3.5
             2) slurm/default                 8) leveldb/1.20                 14) opencv/3.2.0
             3) intel/17.4                    9) boost/1.66.0_py2.7.14_gcc5   15) caffe/git_master_HEAD
@@ -11,6 +17,7 @@ This will load all necessary programs/files to run caffe.
             5) hdf5/1.8.16_gnu              11) protobuf/3.2.0               17) gcc/5.3.0
             6) cuda/8.0                     12) gflags/2.2.0
 
+            You should now be good to run make. My version of the Makefile.config should work with all users on PSC Bridges.
 
 
 
